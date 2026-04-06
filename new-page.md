@@ -1,8 +1,8 @@
 ---
-title: My_first_md
+title: TCD的应用: 含参积分
 description: markdown test of Descartes 
 published: true
-date: 2026-04-06T08:32:33.007Z
+date: 2026-04-06T08:40:11.193Z
 tags: 
 editor: markdown
 dateCreated: 2026-04-02T15:49:03.913Z

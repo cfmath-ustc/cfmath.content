@@ -2,7 +2,7 @@
 title: Radon测度
 description: 
 published: true
-date: 2026-04-08T03:40:24.460Z
+date: 2026-04-08T04:13:28.930Z
 tags: 
 editor: markdown
 dateCreated: 2026-04-02T16:42:34.005Z
@@ -33,4 +33,3 @@ $$\forall f\in C_c(\mathbb R),\quad J(f)=\int f\mathrm{d}\mu.$$
 **Lem** 设 $(E,d)$ 是一个局部紧的可分度量空间, 则存在一列递增的紧集 $(L_n)_{n\geq 1}$ 使得 $\forall n,L_n\subset \mathring{L}_{n+1}$ 且 $E = \bigcup_1^\infty L_n = \bigcup_1^\infty \mathring{L}_n$.
 
 **Prop** 设 $(E,d)$ 是一个局部紧的可分度量空间, $\mu$ 是 $(E,\mathcal B(E))$ 上的一个 Radon 测度, 则它是正则的 (外正则+内正则).
-**证明** 

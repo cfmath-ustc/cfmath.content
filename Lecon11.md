@@ -2,7 +2,7 @@
 title: Lecon11
 description: 
 published: true
-date: 2026-04-08T12:18:49.616Z
+date: 2026-04-08T12:21:37.767Z
 tags: 
 editor: markdown
 dateCreated: 2026-04-08T12:18:49.616Z
@@ -26,7 +26,6 @@ $$\underbrace{P}_{\in A[X]} = \underbrace{u}_{\in K_A}\cdot\underbrace{\prod\lim
 On décompose $u$ sur $\mathcal P_A$ : 
 $$u=\underbrace{U}_{\in A^*}\prod_{p\in\mathcal P_A}p^{\sigma_p}.$$
 $$P = U\prod_{p\in\mathcal P_A}p^{\sigma_p}\prod_{\pi\in\mathcal P_{K_A[X]}}\pi^{v_\pi}.$$
-_Unicité_ : 
-
+_Unicité_ : Utilisez d'abord l'unicité de $K_A[X]$, puis l'unicité de $A$.
 
 

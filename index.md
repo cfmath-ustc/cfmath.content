@@ -2,7 +2,7 @@
 title: Radon测度
 description: 
 published: true
-date: 2026-04-08T03:29:04.962Z
+date: 2026-04-08T03:40:24.460Z
 tags: 
 editor: markdown
 dateCreated: 2026-04-02T16:42:34.005Z
@@ -27,7 +27,10 @@ $$|J_\mu(f)-J_\mu(f_n)| \leq \int_K |f-f_n|\,\mathrm{d}\mu\leq\Vert f-f_n\Vert_\
 **Thm** (Riez-Markov) 设 $J$ 是 $C_c(\mathbb R)$ 上的一个正线性型 (i.e. $\forall f\in C_c(\mathbb R),f\geq0\Rightarrow J(f)\geq 0$), 则存在唯一一个 $(\mathbb R,\mathcal B(\mathbb R))$ 上的 Radon 测度 $\mu$, 使得 $J=J_\mu$. 即
 $$\forall f\in C_c(\mathbb R),\quad J(f)=\int f\mathrm{d}\mu.$$
 
-**注**: 我们可以把以上结果从 $\mathbb R$ 推广到局部紧的可分度量空间中. 
+**Rque**: 我们==可以==把以上结果从 $\mathbb R$ 推广到局部紧的可分度量空间中. 
 
-## Radon 测度的外正则性
+## Radon 测度的正则性
 **Lem** 设 $(E,d)$ 是一个局部紧的可分度量空间, 则存在一列递增的紧集 $(L_n)_{n\geq 1}$ 使得 $\forall n,L_n\subset \mathring{L}_{n+1}$ 且 $E = \bigcup_1^\infty L_n = \bigcup_1^\infty \mathring{L}_n$.
+
+**Prop** 设 $(E,d)$ 是一个局部紧的可分度量空间, $\mu$ 是 $(E,\mathcal B(E))$ 上的一个 Radon 测度, 则它是正则的 (外正则+内正则).
+**证明** 

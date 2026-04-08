@@ -2,7 +2,7 @@
 title: Radon测度
 description: 
 published: true
-date: 2026-04-08T04:13:28.930Z
+date: 2026-04-08T04:14:48.435Z
 tags: 
 editor: markdown
 dateCreated: 2026-04-02T16:42:34.005Z
@@ -26,6 +26,7 @@ $$|J_\mu(f)-J_\mu(f_n)| \leq \int_K |f-f_n|\,\mathrm{d}\mu\leq\Vert f-f_n\Vert_\
 
 **Thm** (Riez-Markov) 设 $J$ 是 $C_c(\mathbb R)$ 上的一个正线性型 (i.e. $\forall f\in C_c(\mathbb R),f\geq0\Rightarrow J(f)\geq 0$), 则存在唯一一个 $(\mathbb R,\mathcal B(\mathbb R))$ 上的 Radon 测度 $\mu$, 使得 $J=J_\mu$. 即
 $$\forall f\in C_c(\mathbb R),\quad J(f)=\int f\mathrm{d}\mu.$$
+**证明** ?
 
 **Rque**: 我们==可以==把以上结果从 $\mathbb R$ 推广到局部紧的可分度量空间中. 
 

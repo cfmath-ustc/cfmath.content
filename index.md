@@ -2,7 +2,7 @@
 title: Radon测度
 description: 
 published: true
-date: 2026-04-08T03:23:25.067Z
+date: 2026-04-08T03:25:53.437Z
 tags: 
 editor: markdown
 dateCreated: 2026-04-02T16:42:34.005Z
@@ -17,7 +17,7 @@ dateCreated: 2026-04-02T16:42:34.005Z
 $$F(x):=\begin{cases}\mu(]0,x])&\text{si }x>0\\0&\text{si }x=0\\-\mu(]x,0])&\text{si }x<0\end{cases}$$
 
 ## $\mathbb R$ 上的 Radon 测度和 $C_c(\mathbb R)$ 上的线性型一一对应
-一个 $\mathbb R$ 上局部有限的 Borélienne 测度称为 $\mathbb R$ 上的一个 Radon 测度.
+$\mathbb R$ 上局部有限的 Borélienne 测度称为 $\mathbb R$ 上的一个 Radon 测度.
 给定一个 Radon 测度 $\mu$, 我们可以定义一个 $C_c(\mathbb R)$ 上的线性型: 
 $$J_\mu:C_c(\mathbb R)\to \mathbb R,\quad f\mapsto\int f\,\mathrm{d}\mu.$$
 为赋予 $C_c(\mathbb R)$ 一个拓扑使得 $J_\mu$ 连续, 我们定义 $C_c(R)$ 中的序列收敛: $C_c(R)$ 中的函数列 $(f_n)_{n\geq 1}$ 有一个公共的紧支撑集 $K$ (i.e. $\forall n,\text{supp}(f_n)\subset K$) 且 $f_n$ 一致收敛于 $f$. 此时有 $f\in C_c(\mathbb R)$ 且 $\text{supp}(f)\subset K$.
@@ -26,3 +26,8 @@ $$|J_\mu(f)-J_\mu(f_n)| \leq \int_K |f-f_n|\,\mathrm{d}\mu\leq\Vert f-f_n\Vert_\
 
 **Thm** (Riez-Markov) 设 $J$ 是 $C_c(\mathbb R)$ 上的一个正线性型 (i.e. $\forall f\in C_c(\mathbb R),f\geq0\Rightarrow J(f)\geq 0$), 则存在唯一一个 $(\mathbb R,\mathcal B(\mathbb R))$ 上的 Radon 测度 $\mu$, 使得 $J=J_\mu$. 即
 $$\forall f\in C_c(\mathbb R),\quad J(f)=\int f\mathrm{d}\mu.$$
+
+**注**: 我们可以把以上结果从 $\mathbb R$ 推广到局部紧的可分度量空间中. 
+
+## Radon 测度的外正则性
+

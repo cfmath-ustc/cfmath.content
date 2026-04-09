@@ -1,8 +1,8 @@
 ---
 title: Hello, Mr Bourbaki.
-description: test
+description: introduction
 published: true
-date: 2026-04-09T13:57:15.401Z
+date: 2026-04-09T13:58:05.057Z
 tags: 
 editor: markdown
 dateCreated: 2026-03-31T18:25:24.086Z
